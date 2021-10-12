@@ -1,0 +1,28 @@
+{
+  "name": "afd-friction-cdk",
+  "version": "0.1.0",
+  "bin": {
+    "afd-friction-cdk": "bin/afd-friction-cdk.js"
+  },
+  "scripts": {
+    "build": "echo \"The build step is not required when using JavaScript!\" && exit 0",
+    "cdk": "cdk",
+    "test": "jest"
+  },
+  "devDependencies": {
+    "@aws-cdk/assert": "1.95.1",
+    "aws-cdk": "1.95.1",
+    "jest": "^26.4.2"
+  },
+  "dependencies": {
+    "@aws-cdk/aws-apigateway": "^1.123.0",
+    "@aws-cdk/aws-cognito": "^1.123.0",
+    "@aws-cdk/aws-dynamodb": "^1.123.0",
+    "@aws-cdk/aws-iam": "^1.123.0",
+    "@aws-cdk/aws-lambda": "^1.123.0",
+    "@aws-cdk/aws-lambda-event-sources": "^1.123.0",
+    "@aws-cdk/aws-pinpoint": "^1.123.0",
+    "@aws-cdk/core": "^1.95.1",
+    "dotenv": "^10.0.0"
+  }
+}
